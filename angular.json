@@ -62,7 +62,8 @@
               "buildTarget": "genkit-angular-demo:build:production"
             },
             "development": {
-              "buildTarget": "genkit-angular-demo:build:development"
+              "buildTarget": "genkit-angular-demo:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
